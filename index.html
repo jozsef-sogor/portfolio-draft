@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Oswald&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div id="navButton" class="openbtn">&times;</div>
+  <div id="desktopWrapper">
+  <nav class="desktop scale-out-ver-top">
+<ul>
+  <li onclick="showPage('about')"><a href="#about"><img src="img/logo.svg" alt="Jozsef Sogor"></a></li>
+  <li onclick="showPage('about')" class="tab"><a href="#about">About me</a></li>
+  <li onclick="showPage('projects')" class="tab"><a href="#projects">My Projects</a></li>
+  <li onclick="showPage('contact')" class="tab"><a href="#contact">Contact me</a></li>
+</ul>
+    <ul id="navContact">
+      <li><a href="tel:+4591953747">+45 9195 3757</a></li>
+      <li><a href="mailto:sogor.jozsef98@gmail.com?subject=Internship">sogor.jozsef98@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <section id="about" class="page">
+      <div id="hero">
+      <h1 id="title">
+  <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "Jeg hedder", "My name is", "Ich heiße" ]'></span><br>
+     <span id="name">Jozsef Sogor</span>
+</h1>
+</div>
+
+<div id="aboutFlex">
+  <section>
+<p>A Multimedia Design student based in Denmark. I strive to make everything I
+do as good as possible. I like to get into the flow and figure out the solutions
+but I'm not affraid to ask. I like to work in a team but I can work on my own as well.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto accusantium provident atque, velit iste, quasi adipisci maxime fugit itaque laboriosam!
+</p>
+</section>
+<div>
+<h2>I am</h2>
+<ul class="skills" id="softSkills">
+  <li>Patient</li>
+  <li>Problem solver</li>
+  <li>Open minded</li>
+  <li>Good at teamwork</li>
+  <li>Independent</li>
+</ul>
+</div>
+</div>
+<div id="skillsGrid">
+
+<div>
+<h2>I want to help you with</h2>
+<ul class="skills" id="helpWith">
+  <li><img src="img/help-with/html.png" alt=""></li>
+  <li><img src="img/help-with/css.svg" alt=""></li>
+  <li><img src="img/help-with/javascript.png" alt=""></li>
+</ul>
+</div>
+
+<div>
+<h2>I have experience with</h2>
+<ul class="skills" id="programs">
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+</ul>
+</div>
+
+<div>
+<h2>I want to learn more about</h2>
+<ul class="skills" id="learnAbout">
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+</ul>
+</div>
+</div>
+    </section>
+    <section id="projects" class="page">
+      <div id="projectsGrid"></div>
+    </section>
+    <section id="contact" class="page"></section>
+  </article>
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
